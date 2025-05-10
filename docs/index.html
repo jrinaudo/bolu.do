@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Título boludo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        align-items: center;
+        background-color: #222;
+        display: flex;
+        font-family: "Montserrat", sans-serif;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      h1 {
+        color: #ccc;
+        font-size: 5rem;
+        text-align: center;
+        margin: 2.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+    <script>
+      const items = [
+        "ATIENDO BOLUDOS",
+        "LOS BOLUDOS Y LAS PALOMAS NO SE TERMINAN NUNCA",
+        "¿QUÉ HACES BOLÓ?",
+        "BOLUDO ATÓMICO",
+        "BOLUDO NIVEL 9000",
+        "BOLUDECES NO",
+        "BOLUDA TOTAL",
+        "AH RE BOLUDO",
+        "¿QUÉ MIRAS BOLUDO?",
+        "MÁS BOLUDO QUE LAS PALOMAS",
+        "BOLUDO A CUERDA",
+        "NO ES FÁCIL SER UN BOLUDO",
+        "PEDAZO DE BOLUDOOOOOOOOO",
+        "UNA BOLUDEZ TRAS OTRA",
+      ];
+      document.querySelector("h1").innerText = items[Math.floor(Math.random() * items.length)];
+    </script>
+  </body>
+</html>
